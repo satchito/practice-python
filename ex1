@@ -1,3 +1,5 @@
+#Small program that will ask for input and print the name of the user and the year they will turn 100.
+
 def hundred_birthday():
     name = str(raw_input("What is your name? \n"))
     age = int(input("How old are you? \n"))
