@@ -1,0 +1,11 @@
+# This code will tell the user if they picked an odd or even number,
+# also if the number is divisible by 4 it will print a special message
+
+num = input("Enter any number and I'll show you a trick: \n")
+mod = num % 2
+if num % 4 == 0:
+    print("You picked an even number! Also it is divisible by 4!!!")
+elif mod > 0:
+    print("You picked an odd number!")
+else:
+    print("You picked an even number!")
