@@ -1,0 +1,9 @@
+def hundred_birthday():
+    name = str(raw_input("What is your name? \n"))
+    age = int(input("How old are you? \n"))
+    year = str((2017 - age)+100)
+    times = int(input("Enter a number between 1 and 5 \n"))
+    print times * ("Hello %s, if everything goes right, "
+        "you will be 100 years old in %s! \n" % (name, year))
+
+hundred_birthday()
